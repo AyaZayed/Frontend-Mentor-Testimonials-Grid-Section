@@ -14,6 +14,81 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
+  background-color: var(--Light-grayish-blue);
+}
+
+.cards-section {
+  display: flex;
+}
+
+.card {
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .account-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card .account-info img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.card {
+  color: var(--Light-gray);
+}
+
+.card-white {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.card .account-info h4,
+.card .account-info p {
+  margin: 0;
+}
+
+.card .account-info p {
+  opacity: 50%;
+}
+
+.card q {
+  opacity: 75%;
+}
+
+.card-purple {
+  background-color: var(--Moderate-violet);
+}
+
+.card-grey {
+  background-color: var(--Very-dark-grayish-blue);
+}
+
+.card-dark-blue {
+  background-color: var(--Very-dark-blackish-blue);
+}
+
+.card-white {
+  background-color: var(--White);
+  flex-basis: 70%;
 }
 
 .attribution {
