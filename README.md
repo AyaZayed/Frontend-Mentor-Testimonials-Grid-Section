@@ -19,7 +19,7 @@ This is a solution to the [testimonials grid section challenge on frontend mento
 
 ### Links
 
-- Solution URL: [Testimonials Grid Section](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-qM3fXA8eq0)
+- Solution URL: [Testimonials Grid Section](https://www.frontendmentor.io/solutions/testimonials-grid-section-pZvny-bcYH)
 
 ## My process
 
